@@ -6,6 +6,6 @@ WORKDIR /app
 # Copia el JAR (ajusta el nombre si es diferente)
 COPY target/ecommerce-0.0.1-SNAPSHOT.jar app.jar
 
-EXPOSE 8082
+EXPOSE 8084
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
