@@ -1,16 +1,16 @@
 
 server:
-  port: 8082
+  port: 8084
 
 spring:
   application:
     name: ecommerce
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    #url: jdbc:mysql://localhost/ecommerce_lp2?serverTimezone=America/Lima&useSSL=false
+    #url: jdbc:mysql://localhost/ecommerce_lp2_prod?serverTimezone=America/Lima&useSSL=false
     url: jdbc:mysql://db/ecommerce_lp2?serverTimezone=America/Lima&useSSL=false
     username: root
-    password: admin
+    password: admin123
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
